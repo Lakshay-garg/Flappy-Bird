@@ -15,6 +15,8 @@ def move_pipes(pipes):
         pipe.centerx -= 5
     return pipes
 
+#print(hello)
+
 def draw_pipes(pipes):
     for pipe in pipes:
         if pipe.bottom >= 520:
